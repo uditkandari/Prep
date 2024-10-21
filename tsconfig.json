@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                                  /* Use the latest JavaScript version */
+    "module": "commonjs",                                /* Use CommonJS for Node.js compatibility */
+    "esModuleInterop": true,                             /* Ensure compatibility with CommonJS modules */
+    "forceConsistentCasingInFileNames": true,            /* Enforce consistent casing in imports */
+    "strict": true,                                      /* Enable all strict type-checking options */
+    "skipLibCheck": true,                                /* Skip type checking all .d.ts files */
+    "resolveJsonModule": true,                           /* Enable importing .json files */
+    "sourceMap": true,                                   /* Enable source maps for better debugging */
+    "outDir": "./dist",                                  /* Specify output directory for compiled files */
+    "noImplicitAny": true                                /* Enable error reporting for any types */
+  },
+  "include": ["tests/**/*.ts"]                           /* Specify which files to include in compilation */
+}
